@@ -1,0 +1,15 @@
+{%extends "layout.html"%}
+{%block content%}
+<!--<link rel="stylesheet" href={{cdn_css | safe}} type ="text/css" />-->
+<script type="text/javascript" src={{cdn_js| safe}}></script>
+
+<div class="about">
+        <h1> About page {{say_hi_name}}  </h1>
+        <p> About app content is here</p>
+</div>
+
+
+{{script1js | safe}}
+{{div1 | safe}}
+
+{%endblock%}}
